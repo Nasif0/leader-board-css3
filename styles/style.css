@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+     font-family: 'Poppins', sans-serif;
+     background:  #F3F1FF;
+     
+}
+main{
+     display: flex;
+     justify-content: center;
+}
+.top-players{
+     margin-bottom: 30px;
+}
+.section-title{
+     color: #562EFF;
+     font-size: 24px;
+     margin-top: 3px;
+
+}
+.container{
+   background-color: #FFFFFF;
+   width: 870px;
+   padding: 30px;
+
+}
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    
+}
+.player{
+     display: flex;
+     align-items: center;
+}
+.player img{
+     width: 56px;
+     height: 56px;
+}
+.player-name{
+     margin-left: 16px;
+}
+hr{
+     border: 1px solid #D1D1D1;
+     
+}
+
+
+
+.blogs-1 img{
+     width: 177px;
+height: 117px;
+}
+.blogs-1{
+     display: flex;
+    
+  
+}
+.blog-text{
+     margin-left: 16px;
+     font-size: 18px;
+     margin-top: -21px;
+     
+}
+.blog-text p{
+     
+     color: #9F9F9F;
+     font-size: 16px;
+}
+.anchor a{
+     font-size: 16px;
+     color: 
+     #562EFF;
+     text-decoration: none;
+
+}
+
+
+.blogs-2 img{
+     width: 177px;
+     height: 117px;
+}
+.blogs-2{
+     display: flex;
+     margin-top: 26px;
+
+    
+  
+}
+.blog-text-2{
+     margin-left: 16px;
+     font-size: 18px;
+     margin-top: -21px;
+     
+}
+.blog-text-2 p{
+     
+     color: #9F9F9F;
+     font-size: 16px;
+}
+.anchor-2 a{
+     font-size: 16px;
+     color: 
+     #562EFF;
+     text-decoration: none;
+
+}
+.blog4{
+
+     display: flex;
+     justify-content: end;
+     margin-top: -125px;
+}
+.blog4 img{
+     width: 177px;
+height: 117px;
+
+}
+.blog-text4{
+     margin-left: 16px;
+    
+     font-size: 18px;
+     margin-top: -21px;
+     
+}
+.b-text4{
+     font-size: 20px;
+}
+.anchor4 a{
+     font-size: 16px;
+     color: 
+     #562EFF;
+     text-decoration: none;}
+     
+     .blog-text4 p{
+     
+          color: #9F9F9F;
+          font-size: 16px;
+     }
+
+.blog3{
+     margin-left: 46px;
+}
+.blog-text3{
+     margin-left: 16px;
+   
+     font-size: 18px;
+     margin-top: -21px;
+}
+.anchor3 a{
+     font-size: 16px;
+     color: 
+     #562EFF;
+     text-decoration: none;}
+.blog-text3 p {
+     color: #9F9F9F;
+     font-size: 16px;
+           }   
