@@ -8,7 +8,8 @@ body{
 }
 main{
      display: flex;
-     justify-content: center;
+     flex-direction: column;
+     align-items: center;
 }
 .top-players{
      margin-bottom: 30px;
@@ -22,7 +23,9 @@ main{
 .container{
    background-color: #FFFFFF;
    width: 870px;
+   border-radius: 5px;
    padding: 30px;
+   margin-top: 21px;
 
 }
 
@@ -49,7 +52,7 @@ hr{
      
 }
 
-
+/*------------------------ blog 1--------------------- */
 
 .blogs-1 img{
      width: 177px;
@@ -78,7 +81,7 @@ height: 117px;
      text-decoration: none;
 
 }
-
+/* ---------------------blog-2--------------------------- */
 
 .blogs-2 img{
      width: 177px;
@@ -109,6 +112,7 @@ height: 117px;
      text-decoration: none;
 
 }
+/* --------------------blog-4------------------------- */
 .blog4{
 
      display: flex;
@@ -141,7 +145,7 @@ height: 117px;
           color: #9F9F9F;
           font-size: 16px;
      }
-
+/* --------------Blog-3-------------- */
 .blog3{
      margin-left: 46px;
 }
@@ -160,3 +164,93 @@ height: 117px;
      color: #9F9F9F;
      font-size: 16px;
            }   
+
+        
+ /*---------------------lates-course-------------------------*/
+ 
+
+ 
+.courses{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+} 
+
+.course img{
+     width: 224px;
+height: 104px;
+}
+
+.container2{
+     background-color: #FFFFFF;
+     width: 870px;
+     border-radius: 5px;
+     padding: 30px;
+     
+}
+.text-decoration1{
+     margin-top: -70px;
+
+}
+.text-decoration2{
+     text-align: center;
+     margin-top: -165px;
+     margin-right: 60px;
+}
+.text-decoration3{
+     margin-left: 68%;
+     margin-top: -155px;
+}
+.react1 .react2 .react3{
+     font-size: 20.0336px;
+     color: #1E1E1E;
+}
+.anchor-react1 a{
+     text-decoration:none ;
+     color: #ED6B4F;
+     font-size: 14.6913px;
+}
+.anchor-react2 a{
+     text-decoration:none ;
+     color: #ED6B4F;
+     font-size: 14.6913px;
+}
+.anchor-react3 a{
+     text-decoration:none ;
+     color: #ED6B4F;
+     font-size: 14.6913px;
+}
+.fa-solid{
+     color: #FFC014;
+}
+#unfilled3{
+     color: #AEAEAE;
+     
+}
+.star1{
+    color: #A2A2A2;
+    font-size: 14.6913px;
+}
+.star2{
+     color: #A2A2A2;
+     font-size: 14.6913px;
+ }
+ .star3{
+     color: #A2A2A2;
+     font-size: 14.6913px;
+ }
+ .hr2{
+     background: #FEE5DF;
+     border-radius: 14.6913px;
+     color: #ED6B4F
+     
+ }
+
+ /*---------------- media queries----------- */
+
+@media only screen and (max-width:688px){
+
+}
+@media only screen and (min-width:688px) and 
+(max-width:992px){
+     
+}
